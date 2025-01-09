@@ -1,0 +1,154 @@
+.bg-back{
+    background-color: #1ABC9C;
+   
+
+}
+.bor::after{
+    content: '';
+    width: 100px;
+    height: 5px;
+    background: white;
+    display: block;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 16px;
+
+}
+.component{
+    position: relative;
+    top: 38%;
+}
+.component::after{
+    content: '';
+    width: 100px;
+    height: 5px;
+    background: white;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+   
+
+}
+.component::before{
+    content: '';
+    width: 100px;
+    height: 5px;
+    background: white;
+    display: block;
+    position: absolute;
+    right: 53%;
+    top: 50px;
+    
+   
+
+}
+.copy{
+    background-color: black;
+    color: white;
+    font-size: 16px ;
+    
+}
+.bg-col{
+    background-color: #2C3E50 !important ;
+    padding: 50px !important;
+}
+
+a{
+    color: white !important;
+}
+.bg{
+    background-color: #2C3E50 ;
+
+
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bor::before{
+    content: '';
+    width: 100px;
+    height: 5px;
+    background: white;
+    display: block;
+    position: absolute;
+    left: 51%;
+    bottom:22px;
+    
+    
+   
+
+}
+.dor::after{
+    content: '';
+    width: 100px;
+    height: 5px;
+    background: black;
+    display: block;
+    position: absolute;
+   top: 185px;
+   left: 51%;
+
+}
+.starr{
+    top: 38px;
+    left: -110px;
+    font-size: 16px;
+   
+}
+.dor::before{
+    content: '';
+    width: 100px;
+    height: 5px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 185px;
+    left: 42%;
+  
+
+}
+.de-icon {
+
+    margin-left: 120px;
+    margin-top: 10px;
+    
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.layer{
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #1abc9cc7;
+   display: none; 
+   justify-content: center;
+   align-items: center;
+   transition: all 1s;
+  
+   
+}
+.plus{
+    cursor: pointer;
+}
+.img-cover img:hover + .layer {
+    display: flex;
+}
+.layer-main{
+    /* position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #1abc9c17;
+    display: flex;
+    gap: 3px; ; */
+}
